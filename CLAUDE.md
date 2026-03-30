@@ -2,7 +2,7 @@
 
 ## Structure
 - `skills/advisor/` — project analysis + hardware recommendation (user-invocable)
-- `skills/setup/` — interactive config wizard (invoked by setup command)
+- `commands/setup.md` — interactive config wizard (user runs /autoresearch:setup)
 - `commands/run.md` — pre-flight + experiment loop
 - `commands/status.md` — results viewer
 - `commands/setup.md` — thin wrapper for setup skill

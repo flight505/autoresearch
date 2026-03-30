@@ -1,6 +1,6 @@
 {
   "name": "autoresearch",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Karpathy's autoresearch as a Claude Code plugin — autonomous fixed-budget optimization for ML training, code performance, prompt engineering, and more. Apple Silicon (MLX), NVIDIA CUDA, and RunPod cloud. Optimized for Claude Max subscriptions.",
   "author": {
     "name": "Jesper Vang",
@@ -28,7 +28,6 @@
     "./commands/setup.md"
   ],
   "skills": [
-    "./skills/advisor",
-    "./skills/setup"
+    "./skills/advisor"
   ]
 }

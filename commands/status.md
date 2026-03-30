@@ -27,7 +27,7 @@ echo ""
 echo "=== Results ===" && cat results.tsv 2>/dev/null || echo "(no results.tsv yet)"
 echo ""
 echo "=== Summary ==="
-grep -v "^commit" results.tsv 2>/dev/null | awk -F'\t' '{
+grep -v "^commit" results.tsv 2>/dev/null | awk -F'\t' 'NF >= 4 {
   total++
   if ($4=="keep") keep++
   if ($4=="discard") discard++
